@@ -1,0 +1,4 @@
+Libraries used:
+
+Framer Motion
+React Simple Typewriter
