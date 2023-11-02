@@ -15,7 +15,7 @@ function Hero({}: Props) {
     delaySpeed: 2000,
   });
   return (
-    <motion.div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <motion.div className="h-screen flex flex-col space-y-8 items-center  text-center overflow-hidden">
       <BackgroundCircles />
       <Image
         src={"/profile.jpg"}

@@ -9,21 +9,21 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="h-screen snap-y snap-mandatory overflow-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
+    <div className="h-screen  overflow-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
       <Header />
-      <section id="hero" className="snap-start">
+      <section id="hero">
         <Hero />
       </section>
-      <section id="about" className="snap-center">
+      <section id="about">
         <About />
       </section>
-      <section id="experience" className="snap-center">
+      <section id="experience">
         <Experience />
       </section>
-      <section id="skills" className="snap-start">
+      <section id="skills">
         <Skills />
       </section>
-      <section id="projects" className="snap-start">
+      <section id="projects">
         <Projects />
       </section>
       <Link href="#hero">
