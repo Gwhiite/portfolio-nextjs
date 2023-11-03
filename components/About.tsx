@@ -43,14 +43,30 @@ const About = (props: Props) => {
         <div className="px-5">
           <p className="text-sm md:text-base xl:text-lg text-justify">
             Olá, me chamo Guilherme Branco De Campos, e esse é o meu Portfolio
-            feito com <span className="text-[#ba110c]">NextJS</span>. Desde novo
-            busquei aprender coisas novas fora dos estudos convencionais, e com
-            isso, cai na área de Tecnologia da Informação. Me encontrei na área
-            desde o princípio, tendo como base a minha curiosidade para entender
-            como as coisas funcionam e se relacionam. Acredito que o sucesso
-            existe na proatividade e busca pelo conhecimento, não me contento em
-            somente conseguir realizar uma tarefa ou resolver um problema, gosto
-            de entender a fundo como o problema ocorreu e assim evita-lo
+            responsivo desenvolvido com{" "}
+            <span className="underline underline-offset-4 decoration-[#ba110c]">
+              NextJS
+            </span>
+            ,{" "}
+            <span className="underline underline-offset-4 decoration-[#ba110c]">
+              TailwindCSS
+            </span>
+            , utlizando o{" "}
+            <span className="underline underline-offset-4 decoration-[#ba110c]">
+              Github
+            </span>{" "}
+            como repositório e realizado o deploy com{" "}
+            <span className="underline underline-offset-4 decoration-[#ba110c]">
+              Vercel
+            </span>
+            . Desde novo busquei aprender coisas novas fora dos estudos
+            convencionais, e com isso, cai na área de Tecnologia da Informação.
+            Me encontrei na área desde o princípio, tendo como base a minha
+            curiosidade para entender como as coisas funcionam e se relacionam.
+            Acredito que o sucesso existe na proatividade e busca pelo
+            conhecimento, não me contento em somente conseguir realizar uma
+            tarefa ou resolver um problema, gosto de entender a fundo como o
+            problema ocorreu e assim evita-lo
             <span className="text-[#ba110c]">.</span>
           </p>
         </div>

@@ -35,7 +35,7 @@ function Hero({}: Props) {
             <span className="mr-3">{text}</span>
             <Cursor cursorColor="#ba110c" />
           </h1>
-          <div className="pt-5 flex flex-col items-center justify-center space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
+          <div className="pt-5 flex flex-col items-center justify-center space-y-2 md:space-y-0 md:space-x-4 md:flex-row">
             <Link href="#about">
               <button className="heroButton">Sobre</button>
             </Link>
