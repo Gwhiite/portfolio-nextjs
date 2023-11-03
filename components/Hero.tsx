@@ -29,7 +29,7 @@ function Hero({}: Props) {
         />
         <div className="z-20">
           <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[10px]">
-            Front-end Dev
+            Dev Front-End
           </h2>
           <h1 className="text-3xl lg:text-5xl font-semibold px-10">
             <span className="mr-3">{text}</span>
@@ -43,7 +43,7 @@ function Hero({}: Props) {
               <button className="heroButton">Experiência</button>
             </Link>
             <Link href="#skills">
-              <button className="heroButton">Habilidades</button>
+              <button className="heroButton">Tecnologias</button>
             </Link>
             <Link href="#projects">
               <button className="heroButton">Projetos</button>

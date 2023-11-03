@@ -27,16 +27,22 @@ function Header({}: Props) {
       >
         <SocialIcon
           url="https://github.com/Gwhiite"
+          rel="noopener noreferrer"
+          target="_blank"
           fgColor="white"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://www.linkedin.com/in/guibranco/"
+          rel="noopener noreferrer"
+          target="_blank"
           fgColor="#0e76a8"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://wa.me/5561992039009"
+          rel="noopener noreferrer"
+          target="_blank"
           network="whatsapp"
           fgColor="green"
           bgColor="transparent"

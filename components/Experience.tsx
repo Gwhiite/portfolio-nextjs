@@ -19,7 +19,7 @@ const Experience = (props: Props) => {
       className="h-screen py-24 flex  overflow-hidden flex-col text-left md:flew-row max-w-full px-5 justify-center space-y-8 mx-auto items-center"
     >
       <h3 className="title">Experiência</h3>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-5 snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
+      <div className="w-full flex space-x-5 overflow-x-scroll p-5 snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
         <ExperienceCard
           title="Desenvolvedor Front-End"
           company="Labz Produtora Digital"
