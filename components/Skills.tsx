@@ -38,6 +38,7 @@ const Skills = (props: Props) => {
         <Skill source="/mysql.svg" prof="60" />
         <Skill source="/nextjs.svg" prof="75" />
         <Skill source="/axios.svg" prof="85" />
+        <Skill source="/firebase.svg" prof="50" />
       </div>
     </motion.div>
   );

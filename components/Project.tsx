@@ -16,9 +16,9 @@ const Project = ({ img, title, source, summary }: Props) => {
         <h4 className="text-4xl text-center font-semibold">{title}</h4>
         <p className="text-center">{summary}</p>
         <div className="flex space-x-4 justify-center items-center">
-          {source.map((item) => (
+          {source.map((item, index) => (
             <Image
-              key={item}
+              key={index}
               src={item}
               alt="skill used"
               width={40}

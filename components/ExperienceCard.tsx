@@ -26,8 +26,14 @@ const ExperienceCard = ({
         <h4 className="text-3xl font-light">{title}</h4>
         <p className="font-bold text-2xl mt-1">{company}</p>
         <div className="flex space-x-2 my-2">
-          {techs?.map((tech) => (
-            <Image src={tech} alt="skill used" width={40} height={40} />
+          {techs?.map((tech, index) => (
+            <Image
+              key={index}
+              src={tech}
+              alt="skill used"
+              width={40}
+              height={40}
+            />
           ))}
         </div>
         <p className="uppercase py-5">
