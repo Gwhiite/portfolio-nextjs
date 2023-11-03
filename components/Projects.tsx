@@ -18,7 +18,7 @@ const Projects = (props: Props) => {
       transition={{
         duration: 1.5,
       }}
-      className="h-screen relative flex flex-col overflow-hidden text-left justify-center space-y-8 max-w-full mx-auto items-center z-0"
+      className="h-screen py-24 relative flex flex-col overflow-hidden text-left justify-center space-y-8 max-w-full mx-auto items-center z-0"
     >
       <h3 className="title">Projetos</h3>
       <div className="relative w-full flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">

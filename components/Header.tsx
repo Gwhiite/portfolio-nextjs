@@ -41,7 +41,6 @@ function Header({}: Props) {
           fgColor="green"
           bgColor="transparent"
         />
-        <SocialIcon network="email" bgColor="transparent" />
       </motion.div>
     </header>
   );

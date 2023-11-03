@@ -16,7 +16,7 @@ const Experience = (props: Props) => {
       transition={{
         duration: 1,
       }}
-      className="h-screen flex  overflow-hidden flex-col text-left md:flew-row max-w-full px-5 justify-center space-y-8 mx-auto items-center"
+      className="h-screen py-24 flex  overflow-hidden flex-col text-left md:flew-row max-w-full px-5 justify-center space-y-8 mx-auto items-center"
     >
       <h3 className="title">Experiência</h3>
       <div className="w-full flex space-x-5 overflow-x-scroll p-5 snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
@@ -45,7 +45,7 @@ const Experience = (props: Props) => {
           ended="04/2022"
         />
         <ExperienceCard
-          title="Estagiário de Business intelligence"
+          title="Estagiário de Business Intelligence"
           company="Ministério da Educacação"
           summary="Consultoria de B.I na Diretoria de Desenvolvimento e Saúde e desenvolvimento de painéis utilizando Python e Power BI."
           techs={["/python.svg", "/google.svg", "/moffice.svg", "/bi.svg"]}

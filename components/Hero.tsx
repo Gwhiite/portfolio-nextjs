@@ -18,7 +18,7 @@ function Hero({}: Props) {
   return (
     <div>
       <Header />
-      <motion.div className="h-screen md:pt-56 md:justify-start justify-center flex flex-col space-y-8 items-center text-center overflow-hidden">
+      <motion.div className="h-screen pt-10 min-[400px]:pt-24 md:pt-48 flex flex-col space-y-8 items-center text-center overflow-hidden">
         <BackgroundCircles />
         <Image
           src={"/profile.jpg"}

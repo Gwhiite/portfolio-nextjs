@@ -17,7 +17,7 @@ const About = (props: Props) => {
       transition={{
         duration: 1.25,
       }}
-      className="h-screen flex flex-col text-center max-w-7xl px-5 justify-center space-y-8 mx-auto items-center"
+      className="h-screen py-24 flex flex-col text-center max-w-7xl px-5 justify-center space-y-8 mx-auto items-center"
     >
       <h3 className="title">Sobre</h3>
       <div className="lg:text-left flex flex-col items-center lg:flex-row">
