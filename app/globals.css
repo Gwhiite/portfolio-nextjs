@@ -4,9 +4,9 @@
 
 @layer components {
   .heroButton {
-    @apply font-semibold px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#ba110c]/40 hover:text-[#ba110c]/40;
+    @apply font-bold px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#ba110c]/40 hover:text-[#ba110c]/40;
   }
   .title {
-    @apply top-24 uppercase tracking-[15px] text-center text-gray-500 text-2xl;
+    @apply uppercase tracking-[15px] text-center text-gray-500 text-3xl;
   }
 }

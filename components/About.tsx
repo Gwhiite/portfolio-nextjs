@@ -17,10 +17,10 @@ const About = (props: Props) => {
       transition={{
         duration: 1.25,
       }}
-      className="flex flex-col text-center max-w-7xl px-5 justify-evenly mx-auto items-center"
+      className="h-screen flex flex-col text-center max-w-7xl px-5 justify-center space-y-8 mx-auto items-center"
     >
       <h3 className="title">Sobre</h3>
-      <div className="lg:text-left flex items-center lg:flex-row">
+      <div className="lg:text-left flex flex-col items-center lg:flex-row">
         <motion.img
           initial={{
             x: -200,
@@ -33,16 +33,15 @@ const About = (props: Props) => {
             scale: 1,
           }}
           transition={{
-            duration: 1.25,
+            duration: 1,
           }}
           src={"/about.svg"}
           alt="Coding pic"
-          className="-mb-40 md:mb-0 w-40 h-40 flex-shrink-0 rounded-full md:rounded-lg md:w-64 md:h-64 xl:w-80 xl:h-80"
+          className="w-40 h-40 flex-shrink-0 rounded-full md:rounded-lg md:w-64 md:h-64 xl:w-80 xl:h-80"
         />
 
-        <div className="space-y-10 px-0 md:px-10 ">
-          <h4 className="font-semibold text-4xl">Apresentação</h4>
-          <p className="text-sm md:text-base text-justify">
+        <div className="px-5">
+          <p className="text-sm md:text-base xl:text-lg text-justify">
             Olá, me chamo Guilherme Branco De Campos, e esse é o meu Portfolio
             feito com <span className="text-[#ba110c]">NextJS</span>. Desde novo
             busquei aprender coisas novas fora dos estudos convencionais, e com

@@ -17,10 +17,10 @@ const Skills = (props: Props) => {
       transition={{
         duration: 1.5,
       }}
-      className=" flex flex-col text-center md:text-left max-w-[2000px] xl:px-10 min-h-screen justify-center space-y-8 mx-auto items-center"
+      className="flex flex-col text-center md:text-left max-w-[2000px] px-5 h-screen justify-center space-y-8 mx-auto items-center"
     >
       <h3 className="title">Habilidades</h3>
-      <h3 className="top-36 uppercase tracking-[3px] text-gray-500 text-sm">
+      <h3 className="uppercase tracking-[3px] text-gray-500 text-sm">
         Arraste por cima para saber o nível de proficiência
       </h3>
       <div className="grid grid-cols-3 md:grid-cols-4 gap-5 mt-20 md:mt-0">

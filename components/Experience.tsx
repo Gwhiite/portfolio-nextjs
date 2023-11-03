@@ -16,10 +16,10 @@ const Experience = (props: Props) => {
       transition={{
         duration: 1,
       }}
-      className="h-screen flex relative overflow-hidden flex-col text-left md:flew-row max-w-full px-5 justify-evenly mx-auto items-center"
+      className="h-screen flex  overflow-hidden flex-col text-left md:flew-row max-w-full px-5 justify-center space-y-8 mx-auto items-center"
     >
       <h3 className="title">Experiência</h3>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
+      <div className="w-full flex space-x-5 overflow-x-scroll p-5 snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
         <ExperienceCard
           title="Desenvolvedor Front-End"
           company="Labz Produtora Digital"
@@ -48,6 +48,7 @@ const Experience = (props: Props) => {
           title="Estagiário de Inteligência de Negócios em Tecnologia da Informação"
           company="Ministério da Educacação"
           summary="Consultoria de BI na Diretoria de Desenvolvimento e Saúde e desenvolvimento de painéis utilizando Python e Power BI."
+          techs={["/python.svg", "/google.svg"]}
           started="08/2022"
           ended="09/2023"
         />

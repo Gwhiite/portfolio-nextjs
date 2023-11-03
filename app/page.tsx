@@ -9,8 +9,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="h-screen  overflow-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
-      <Header />
+    <div className="h-screen overflow-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
       <section id="hero">
         <Hero />
       </section>

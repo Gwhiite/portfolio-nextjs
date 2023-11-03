@@ -18,10 +18,10 @@ const Projects = (props: Props) => {
       transition={{
         duration: 1.5,
       }}
-      className="h-screen relative flex flex-col overflow-hidden text-left md:flex-row max-w-full justify-evenly mx auto items-center z-0"
+      className="h-screen relative flex flex-col overflow-hidden text-left justify-center space-y-8 max-w-full mx-auto items-center z-0"
     >
       <h3 className="title">Projetos</h3>
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
+      <div className="relative w-full flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
         <Project
           img={"/news.png"}
           title="GW News"
@@ -40,7 +40,7 @@ const Projects = (props: Props) => {
           summary="Web app que utilizada API de anime para buscar animes e adiciona-los a sua lista"
         />
       </div>
-      <div className="w-full absolute top-[30%] bg-[#ba110c]/10 left-0 h-[500px] -skew-y-12" />
+      <div className="w-full absolute top-[30%] bg-[#ba110c]/10 left-0 h-[400px] -skew-y-12" />
     </motion.div>
   );
 };
