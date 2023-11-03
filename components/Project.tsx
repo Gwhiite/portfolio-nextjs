@@ -11,7 +11,7 @@ type Props = {
 const Project = ({ img, title, source, summary }: Props) => {
   return (
     <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5">
-      <Image src={img} alt="project image" width={600} height={600} />
+      <Image src={img} alt="project image" width={600} height={300} />
       <div className="space-y-6 px-0 max-w-6xl">
         <h4 className="text-4xl text-center font-semibold">{title}</h4>
         <p className="text-center">{summary}</p>

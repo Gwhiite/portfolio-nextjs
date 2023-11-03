@@ -45,10 +45,10 @@ const Experience = (props: Props) => {
           ended="04/2022"
         />
         <ExperienceCard
-          title="Estagiário de Inteligência de Negócios em Tecnologia da Informação"
+          title="Estagiário de Business intelligence"
           company="Ministério da Educacação"
-          summary="Consultoria de BI na Diretoria de Desenvolvimento e Saúde e desenvolvimento de painéis utilizando Python e Power BI."
-          techs={["/python.svg", "/google.svg"]}
+          summary="Consultoria de B.I na Diretoria de Desenvolvimento e Saúde e desenvolvimento de painéis utilizando Python e Power BI."
+          techs={["/python.svg", "/google.svg", "/moffice.svg", "/bi.svg"]}
           started="08/2022"
           ended="09/2023"
         />

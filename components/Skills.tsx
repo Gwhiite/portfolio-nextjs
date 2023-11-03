@@ -29,7 +29,6 @@ const Skills = (props: Props) => {
         <Skill source="/js.svg" prof="70" />
         <Skill source="/reactjs.svg" prof="80" />
         <Skill source="/tailwind.svg" prof="90" />
-        <Skill source="/vuejs.svg" prof="40" />
         <Skill source="/vscode.svg" prof="100" />
         <Skill source="/github.svg" prof="80" />
         <Skill source="/python.svg" prof="50" />
