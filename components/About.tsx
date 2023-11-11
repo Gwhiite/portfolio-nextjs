@@ -19,7 +19,7 @@ const About = (props: Props) => {
       }}
       className="h-screen py-24 flex flex-col text-center max-w-7xl px-5 justify-center space-y-8 mx-auto items-center"
     >
-      <h3 className="title">Sobre</h3>
+      <h1 className="title">Sobre</h1>
       <div className="lg:text-left flex flex-col items-center lg:flex-row">
         <motion.img
           initial={{

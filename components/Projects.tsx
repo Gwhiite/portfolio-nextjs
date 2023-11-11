@@ -20,7 +20,7 @@ const Projects = (props: Props) => {
       }}
       className="h-screen py-24 relative flex flex-col overflow-hidden text-left justify-center space-y-8 max-w-full mx-auto items-center z-0"
     >
-      <h3 className="title">Projetos</h3>
+      <h1 className="title">Projetos</h1>
       <div className="relative w-full flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
         <Project
           img={"/news.png"}

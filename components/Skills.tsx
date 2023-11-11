@@ -19,10 +19,10 @@ const Skills = (props: Props) => {
       }}
       className="h-screen py-24 flex flex-col text-center md:text-left max-w-[2000px] px-5  justify-center space-y-8 mx-auto items-center"
     >
-      <h3 className="title">Tecnologias</h3>
-      <h3 className="uppercase tracking-[3px] text-gray-500 text-sm">
+      <h1 className="title">Tecnologias</h1>
+      <h2 className="uppercase tracking-[3px] text-gray-500 text-sm">
         Arraste/Toque por cima para saber o nível de proficiência
-      </h3>
+      </h2>
       <div className="grid grid-cols-3 md:grid-cols-4 gap-5 mt-20 md:mt-0">
         <Skill source="/html.svg" prof="80" />
         <Skill source="/css.svg" prof="80" />
