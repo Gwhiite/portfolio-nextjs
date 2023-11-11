@@ -23,7 +23,7 @@ const ExperienceCard = ({
   return (
     <article className="flex flex-col rounded-lg items-center space-y-6 flex-shrink-0 w-[350px] md:w-[600px] snap-center bg-[#292929] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <div className="p-5">
-        <h4 className="text-3xl font-light">{title}</h4>
+        <h1 className="text-3xl font-light">{title}</h1>
         <p className="font-bold text-2xl mt-1">{company}</p>
         <div className="flex space-x-2 my-2">
           {techs?.map((tech, index) => (
