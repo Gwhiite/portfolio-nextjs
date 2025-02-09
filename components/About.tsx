@@ -17,8 +17,7 @@ const About = (props: Props) => {
       transition={{
         duration: 1.25,
       }}
-      className="h-screen py-24 flex flex-col text-center max-w-7xl px-5 justify-center space-y-8 mx-auto items-center"
-    >
+      className="h-screen py-24 flex flex-col text-center max-w-7xl px-5 justify-center space-y-8 mx-auto items-center">
       <h1 className="title">Sobre</h1>
       <div className="lg:text-left flex flex-col items-center lg:flex-row">
         <motion.img
@@ -42,32 +41,19 @@ const About = (props: Props) => {
 
         <div className="px-5">
           <p className="text-sm md:text-base xl:text-lg text-justify">
-            Olá, me chamo Guilherme Branco De Campos, e esse é o meu Portfolio
-            responsivo desenvolvido com{" "}
-            <span className="underline underline-offset-4 decoration-[#ba110c]">
-              NextJS
-            </span>
-            ,{" "}
-            <span className="underline underline-offset-4 decoration-[#ba110c]">
-              TailwindCSS
-            </span>
-            , utlizando o{" "}
-            <span className="underline underline-offset-4 decoration-[#ba110c]">
-              Github
-            </span>{" "}
-            como repositório e realizado o deploy com{" "}
-            <span className="underline underline-offset-4 decoration-[#ba110c]">
-              Vercel
-            </span>
-            . Desde novo busquei aprender coisas novas fora dos estudos
-            convencionais, e com isso, cai na área de Tecnologia da Informação.
-            Me encontrei na área desde o princípio, tendo como base a minha
-            curiosidade para entender como as coisas funcionam e se relacionam.
-            Acredito que o sucesso existe na proatividade e busca pelo
-            conhecimento, não me contento em somente conseguir realizar uma
-            tarefa ou resolver um problema, gosto de entender a fundo como o
-            problema ocorreu e assim evita-lo
-            <span className="text-[#ba110c]">.</span>
+            Olá, me chamo Guilherme Branco De Campos, e este é o meu portfólio
+            responsivo, desenvolvido com{" "}
+            <span className="text-[#ba110c]">Next.JS</span> e{" "}
+            <span className="text-[#ba110c]">Tailwind CSS</span>, utilizando o
+            GitHub como repositório e realizando o deploy com a Vercel. Desde
+            cedo, sempre busquei aprender coisas novas além dos estudos
+            convencionais, o que me levou à área de Tecnologia da Informação.
+            Desde o início, me identifiquei com a área, impulsionado pela minha
+            curiosidade em entender como as coisas funcionam e se relacionam.
+            Acredito que o sucesso está na proatividade e na busca constante
+            pelo conhecimento. Não me contento apenas em realizar uma tarefa ou
+            resolver um problema; gosto de entender a fundo como ele ocorreu
+            para evitar que se repita.
           </p>
         </div>
       </div>
