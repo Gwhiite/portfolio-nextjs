@@ -10,9 +10,11 @@ const About = (props: Props) => {
     <motion.div
       initial={{
         opacity: 0,
+        rotate: 0.02,
       }}
       whileInView={{
         opacity: 1,
+        rotate: 0.02,
       }}
       transition={{
         duration: 1.25,
@@ -25,11 +27,13 @@ const About = (props: Props) => {
             x: -200,
             opacity: 0,
             scale: 0.5,
+            rotate: 0.02,
           }}
           whileInView={{
             x: 0,
             opacity: 1,
             scale: 1,
+            rotate: 0.02,
           }}
           transition={{
             duration: 1,

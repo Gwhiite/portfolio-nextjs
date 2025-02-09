@@ -14,11 +14,13 @@ function Header({}: Props) {
           y: -200,
           opacity: 0,
           scale: 0.5,
+          rotate: 0.02,
         }}
         animate={{
           y: 0,
           opacity: 1,
           scale: 1,
+          rotate: 0.02,
         }}
         transition={{
           duration: 1,

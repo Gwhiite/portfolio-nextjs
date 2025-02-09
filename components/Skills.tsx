@@ -10,9 +10,11 @@ const Skills = (props: Props) => {
     <motion.div
       initial={{
         opacity: 0,
+        rotate: 0.02,
       }}
       whileInView={{
         opacity: 1,
+        rotate: 0.02,
       }}
       transition={{
         duration: 1.5,

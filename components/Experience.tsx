@@ -9,15 +9,16 @@ const Experience = (props: Props) => {
     <motion.div
       initial={{
         opacity: 0,
+        rotate: 0.02,
       }}
       whileInView={{
         opacity: 1,
+        rotate: 0.02,
       }}
       transition={{
         duration: 1,
       }}
-      className="h-screen py-24 flex  overflow-hidden flex-col text-left md:flew-row max-w-full px-5 justify-center space-y-8 mx-auto items-center"
-    >
+      className="h-screen py-24 flex  overflow-hidden flex-col text-left md:flew-row max-w-full px-5 justify-center space-y-8 mx-auto items-center">
       <h1 className="title">Experiência</h1>
       <div className="w-full flex space-x-5 overflow-x-scroll p-5 snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
         <ExperienceCard
