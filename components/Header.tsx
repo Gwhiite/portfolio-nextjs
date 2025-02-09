@@ -23,8 +23,7 @@ function Header({}: Props) {
         transition={{
           duration: 1,
         }}
-        className="flex items-center"
-      >
+        className="flex items-center">
         <SocialIcon
           url="https://github.com/Gwhiite"
           rel="noopener noreferrer"
@@ -40,7 +39,7 @@ function Header({}: Props) {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://wa.me/5561992039009"
+          url="https://wa.me/5561933005901"
           rel="noopener noreferrer"
           target="_blank"
           network="whatsapp"

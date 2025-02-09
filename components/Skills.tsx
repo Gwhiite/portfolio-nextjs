@@ -17,8 +17,7 @@ const Skills = (props: Props) => {
       transition={{
         duration: 1.5,
       }}
-      className="h-screen py-24 flex flex-col text-center md:text-left max-w-[2000px] px-5  justify-center space-y-8 mx-auto items-center"
-    >
+      className="h-screen py-24 flex flex-col text-center md:text-left max-w-[2000px] px-5  justify-center space-y-8 mx-auto items-center">
       <h1 className="title">Tecnologias</h1>
       <h2 className="uppercase tracking-[3px] text-gray-500 text-sm">
         Arraste/Toque por cima para saber o nível de proficiência
@@ -38,6 +37,8 @@ const Skills = (props: Props) => {
         <Skill source="/nextjs.svg" prof="75" />
         <Skill source="/axios.svg" prof="85" />
         <Skill source="/firebase.svg" prof="50" />
+        <Skill source="/vuejs.svg" prof="65" />
+        <Skill source="/nodejs.svg" prof="60" />
       </div>
     </motion.div>
   );
