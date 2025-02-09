@@ -17,10 +17,7 @@ function BackgroundCircles({}: Props) {
         borderRadius: ["20%", "20%", "50%", "80%", "20%"],
         rotate: 0.02,
       }}
-      transition={{
-        duration: 2.5,
-      }}
-      className="relative flex justify-center items-center">
+      className="relative duration-[2.5s] flex justify-center items-center">
       <div className="border border-[#ba110c] rounded-full h-[200px] w-[200px] mt-52 animate-ping absolute" />
       <div className="border border-[#ba110c] rounded-full h-[300px] w-[300px] mt-52 animate-ping absolute" />
       <div className="border border-[#ba110c] rounded-full h-[500px] w-[500px] mt-52 animate-ping absolute" />

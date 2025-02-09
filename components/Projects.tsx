@@ -17,10 +17,7 @@ const Projects = (props: Props) => {
         opacity: 1,
         rotate: 0.02,
       }}
-      transition={{
-        duration: 1.5,
-      }}
-      className="h-screen py-24 relative flex flex-col overflow-hidden text-left justify-center space-y-8 max-w-full mx-auto items-center z-0">
+      className="h-screen duration-[1.5s] py-24 relative flex flex-col overflow-hidden text-left justify-center space-y-8 max-w-full mx-auto items-center z-0">
       <h1 className="title">Projetos</h1>
       <div className="relative w-full flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
         <Project

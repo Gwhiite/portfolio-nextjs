@@ -22,10 +22,7 @@ function Header({}: Props) {
           scale: 1,
           rotate: 0.02,
         }}
-        transition={{
-          duration: 1,
-        }}
-        className="flex items-center">
+        className="flex items-center duration-[1s]">
         <SocialIcon
           url="https://github.com/Gwhiite"
           rel="noopener noreferrer"
