@@ -21,6 +21,7 @@ function Hero({}: Props) {
       <motion.div className="h-screen pt-10 min-[400px]:pt-24 md:pt-48 flex flex-col space-y-8 items-center text-center overflow-hidden">
         <BackgroundCircles />
         <Image
+          priority={true}
           src={"/profile.jpg"}
           alt="Profile Pic"
           className="relative rounded-full mx-auto object-cover"

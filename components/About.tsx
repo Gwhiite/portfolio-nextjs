@@ -41,20 +41,14 @@ const About = (props: Props) => {
         />
 
         <div className="px-5">
-          <p className="text-sm md:text-base xl:text-lg text-justify">
-            Olá, me chamo Guilherme Branco De Campos, e este é o meu portfólio
-            responsivo, desenvolvido com{" "}
-            <span className="text-[#ba110c]">Next.JS</span> e{" "}
-            <span className="text-[#ba110c]">Tailwind CSS</span>, utilizando o
-            GitHub como repositório e realizando o deploy com a Vercel. Desde
-            cedo, sempre busquei aprender coisas novas além dos estudos
-            convencionais, o que me levou à área de Tecnologia da Informação.
-            Desde o início, me identifiquei com a área, impulsionado pela minha
-            curiosidade em entender como as coisas funcionam e se relacionam.
-            Acredito que o sucesso está na proatividade e na busca constante
-            pelo conhecimento. Não me contento apenas em realizar uma tarefa ou
-            resolver um problema; gosto de entender a fundo como ele ocorreu
-            para evitar que se repita.
+          <p className="text-sm md:text-base xl:text-xl text-justify">
+            Olá! Meu nome é Guilherme Branco De Campos, sou profissional de TI
+            com experiência em BI e desenvolvimento web. Cursei Bacharelado em
+            Ciência da Computação e possuo formação técnica em Informática. Este
+            portfólio responsivo foi desenvolvido com Next.js e Tailwind CSS,
+            utilizando GitHub como repositório e deploy via Vercel. Sou movido
+            pela curiosidade, proatividade e busca constante por conhecimento,
+            sempre buscando entender e otimizar processos.
           </p>
         </div>
       </div>
