@@ -16,36 +16,36 @@ const Experience = (props: Props) => {
         rotate: 0.02,
       }}
       className="h-screen py-24 flex duration-[1s] overflow-hidden flex-col text-left md:flew-row max-w-full px-5 justify-center space-y-8 mx-auto items-center">
-      <h1 className="title">Experiência</h1>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-5 snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
+      <h1 className="title">Experience</h1>
+      <div className="w-full flex space-x-5 overflow-x-scroll p-5 snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
         <ExperienceCard
-          title="Desenvolvedor Front-End"
-          company="Labz Produtora Digital"
-          summary="Desenvolvedor responsável pelo layout das páginas utilizando VueJS, ReactJS, TailwindCSS e Axios."
+          title="Front-End Developer"
+          company="Labz Digital"
+          summary="Developer responsible for the layout of pages using VueJS, ReactJS, TailwindCSS, and Axios."
           techs={["/vuejs.svg", "/reactjs.svg", "/tailwind.svg", "/axios.svg"]}
           started="04/2023"
           ended="05/2023"
         />
         <ExperienceCard
-          title="Desenvolvedor Front-End"
-          company="Hackthon SERPRO"
-          summary="Desenvolvimento de solução para o SERPRO relacionado à compras governamentais utilizando VueJS e CSS."
+          title="Front-End Developer"
+          company="Hackathon SERPRO"
+          summary="Development of a solution for SERPRO related to government procurement using VueJS and CSS."
           techs={["/vuejs.svg", "/css.svg"]}
           started="07/2022"
           ended="07/2022"
         />
         <ExperienceCard
-          title="Desenvolvedor Front-End"
+          title="Front-End Developer"
           company="Freelancer"
-          summary="Planejamento e desenvolvimento de aplicativo web para a realização da eleição da FENADEPOL utilizando HTML, CSS e JavaScript."
+          summary="Planning and development of a web application for conducting the FENADEPOL election using HTML, CSS, and JavaScript."
           techs={["/html.svg", "/css.svg", "/js.svg"]}
           started="04/2022"
           ended="04/2022"
         />
         <ExperienceCard
-          title="Estagiário de Business Intelligence"
-          company="Ministério da Educacação"
-          summary="Consultoria de B.I na Diretoria de Desenvolvimento e Saúde e desenvolvimento de painéis utilizando Python e Power BI."
+          title="Business Intelligence Intern"
+          company="Ministry of Education"
+          summary="B.I consultancy in the Directorate of Development and Health and development of dashboards using Python and Power BI."
           techs={["/python.svg", "/google.svg", "/moffice.svg", "/bi.svg"]}
           started="08/2022"
           ended="09/2023"

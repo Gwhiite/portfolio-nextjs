@@ -17,7 +17,7 @@ const About = (props: Props) => {
         rotate: 0.02,
       }}
       className="h-screen py-24 flex flex-col duration-[1.25s] text-center max-w-7xl px-5 justify-center space-y-8 mx-auto items-center">
-      <h1 className="title">Sobre</h1>
+      <h1 className="title">About</h1>
       <div className="lg:text-left flex flex-col items-center lg:flex-row">
         <motion.img
           initial={{
@@ -42,13 +42,14 @@ const About = (props: Props) => {
 
         <div className="px-5">
           <p className="text-sm md:text-base xl:text-xl text-justify">
-            Olá! Meu nome é Guilherme Branco De Campos, sou profissional de TI
-            com experiência em BI e desenvolvimento web. Cursei Bacharelado em
-            Ciência da Computação e possuo formação técnica em Informática. Este
-            portfólio responsivo foi desenvolvido com Next.js e Tailwind CSS,
-            utilizando GitHub como repositório e deploy via Vercel. Sou movido
-            pela curiosidade, proatividade e busca constante por conhecimento,
-            sempre buscando entender e otimizar processos.
+            Greetings! My name is Guilherme Branco De Campos, I am an IT
+            professional with experience in BI and web development. I have a
+            Bachelor's degree in Computer Science and a technical degree in
+            Informatics. This responsive portfolio was developed with Next.js,
+            Tailwind CSS, Framer Motion, using GitHub as a repository and
+            deployed via Vercel. I am driven by curiosity, proactivity, and a
+            constant quest for knowledge, always seeking to understand and
+            optimize processes.
           </p>
         </div>
       </div>

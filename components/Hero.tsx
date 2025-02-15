@@ -11,7 +11,7 @@ type Props = {};
 
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
-    words: ["Bem-vindo 👻", "Sic Parvis Magna"],
+    words: ["Greetings 👻", "Sic Parvis Magna"],
     loop: true,
     delaySpeed: 2000,
   });
@@ -30,7 +30,7 @@ function Hero({}: Props) {
         />
         <div className="z-20">
           <h2 className="text-sm uppercase text-gray-200 pb-2 tracking-[10px]">
-            Dev Front-End
+            Front-End Developer
           </h2>
           <h1 className="text-3xl lg:text-5xl font-semibold px-10">
             <span className="mr-3">{text}</span>
@@ -38,16 +38,16 @@ function Hero({}: Props) {
           </h1>
           <div className="pt-5 flex flex-col items-center justify-center space-y-2 md:space-y-0 md:space-x-4 md:flex-row">
             <Link href="#about">
-              <button className="heroButton">Sobre</button>
+              <button className="heroButton">About</button>
             </Link>
             <Link href="#experience">
-              <button className="heroButton">Experiência</button>
+              <button className="heroButton">Experience</button>
             </Link>
             <Link href="#skills">
-              <button className="heroButton">Tecnologias</button>
+              <button className="heroButton">Techs</button>
             </Link>
             <Link href="#projects">
-              <button className="heroButton">Projetos</button>
+              <button className="heroButton">Projects</button>
             </Link>
           </div>
         </div>
