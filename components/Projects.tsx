@@ -24,7 +24,6 @@ const Projects = (props: Props) => {
           img={"/news.png"}
           title="GW News"
           source={[
-            "/reactjs.svg",
             "/nextjs.svg",
             "/tailwind.svg",
             "/graphql.svg",
@@ -42,13 +41,19 @@ const Projects = (props: Props) => {
         <Project
           img={"/hulu.png"}
           title="Hulu 2.0"
-          source={["/reactjs.svg", "/nextjs.svg", "/tailwind.svg", "/tmdb.svg"]}
+          source={["/nextjs.svg", "/tailwind.svg", "/tmdb.svg"]}
           summary="Web app based on Hulu that uses The Movie DB API to request movie data."
+        />
+        <Project
+          img={"/chatbot.png"}
+          title="Chatbot AI"
+          source={["/nextjs.svg", "/tailwind.svg", "/shadcn.svg"]}
+          summary="Responsive Chatbot powered by Ollama 3.3"
         />
         <Project
           img={"/spotify.png"}
           title="Spotify layout"
-          source={["/reactjs.svg", "/nextjs.svg", "/tailwind.svg"]}
+          source={["/nextjs.svg", "/tailwind.svg"]}
           summary="Desktop layout of Spotify created to practice TailwindCSS."
         />
       </div>

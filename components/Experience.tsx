@@ -17,6 +17,9 @@ const Experience = (props: Props) => {
       }}
       className="h-screen py-24 flex duration-[1s] overflow-hidden flex-col text-left md:flew-row max-w-full px-5 justify-center space-y-8 mx-auto items-center">
       <h1 className="title">Experience</h1>
+      <h2 className="uppercase tracking-[3px] text-gray-500 text-sm">
+        Hover/Touch over to focus
+      </h2>
       <div className="w-full flex space-x-5 overflow-x-scroll p-5 snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
         <ExperienceCard
           title="Front-End Developer"
