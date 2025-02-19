@@ -2,16 +2,18 @@ import Image from "next/image";
 import React from "react";
 
 type Props = {
-  img: string;
+  video: string;
   title: string;
   source: Array<string>;
   summary: string;
 };
 
-const Project = ({ img, title, source, summary }: Props) => {
+const Project = ({ video, title, source, summary }: Props) => {
   return (
     <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5">
-      <Image src={img} alt="project image" width={600} height={300} />
+      <video controls width={600} height={300} src={video} />
+       
+      
       <div className="space-y-6 px-0 max-w-6xl">
         <h1 className="text-4xl text-center font-semibold">{title}</h1>
         <p className="text-center">{summary}</p>
