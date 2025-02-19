@@ -21,25 +21,25 @@ const Projects = (props: Props) => {
       <h1 className="title">Projects</h1>
       <div className="relative w-full flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
         <Project
-          video={"/videos/Hulu-Clone.mp4"}
+          video={"/videos/Hulu-Clone.webm"}
           title="Hulu Clone"
           source={["/nextjs.svg", "/tailwind.svg", "/tmdb.svg"]}
           summary="Responsive Web app based on Hulu that uses The Movie DB API to request movie data."
         />
         <Project
-          video={"/videos/Chatbot.mp4"}
+          video={"/videos/Chatbot.webm"}
           title="Chatbot AI"
           source={["/nextjs.svg", "/tailwind.svg", "/shadcn.svg"]}
           summary="Responsive Chatbot powered by Ollama 3.3"
         />
         <Project
-          video={"/videos/Anime-Tracker.mp4"}
+          video={"/videos/Anime-Tracker.webm"}
           title="Anime Tracker"
           source={["/vuejs.svg", "/css.svg", "/jikan.svg"]}
           summary="Responsive web app that uses the Jikan API to request anime data and add them to your list."
         />
         <Project
-          video={"/videos/Google-Clone.mp4"}
+          video={"/videos/Google-Clone.webm"}
           title="Google Clone"
           source={["/nextjs.svg", "/tailwind.svg", "/google.svg"]}
           summary="Responsive web app that uses the Google API to search for results."
