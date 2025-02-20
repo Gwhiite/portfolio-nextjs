@@ -51,7 +51,7 @@ function Header({}: Props) {
             bgColor="transparent"
           />
         </div>
-        <div className="ml-auto justify-self-end border border-[#ba110c]/40 p-2 rounded-lg">
+        <div className="ml-auto justify-self-end ">
           <LanguageSwitcher />
         </div>
       </motion.div>
