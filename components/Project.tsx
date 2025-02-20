@@ -11,11 +11,10 @@ type Props = {
 const Project = ({ video, title, source, summary }: Props) => {
   return (
     <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5">
-      <video controls playsInline width={800} height={400}>
+      <video controls poster={`${video}#t=0.5`} width={800} height={400}>
         <source src={video} type="video/webm" />
       </video>
-       
-      
+
       <div className="space-y-6 px-0 max-w-6xl">
         <h1 className="text-4xl text-center font-semibold">{title}</h1>
         <p className="text-center">{summary}</p>
