@@ -4,11 +4,15 @@ import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+import { usePathname } from "next/navigation";
+import LanguageSwitcher from "./LanguageSwitcher";
+
 type Props = {};
 
 function Header({}: Props) {
+  
   return (
-    <header className="flex top-0 p-5 items-center justify-center lg:justify-end max-w-7xl mx-auto z-50">
+    <header className="flex w-full top-0 p-5 items-center justify-center  max-w-7xl mx-auto z-50">
       <motion.div
         initial={{
           y: -200,
@@ -45,6 +49,9 @@ function Header({}: Props) {
           fgColor="green"
           bgColor="transparent"
         />
+        
+        <div className="ml-auto justify-self-end border border-[#ba110c]/40 p-2 rounded-lg"><LanguageSwitcher /></div>
+        
       </motion.div>
     </header>
   );

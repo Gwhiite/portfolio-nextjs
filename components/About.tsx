@@ -2,10 +2,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 type Props = {};
 
 const About = (props: Props) => {
+  const t = useTranslations();
+
   return (
     <motion.div
       initial={{
@@ -17,7 +20,7 @@ const About = (props: Props) => {
         rotate: 0.02,
       }}
       className="h-screen py-24 flex flex-col duration-[1.25s] text-center max-w-7xl px-5 justify-center space-y-8 mx-auto items-center">
-      <h1 className="title">About</h1>
+      <h1 className="title">{t("about")}</h1>
       <div className="lg:text-left flex flex-col items-center lg:flex-row">
         <motion.img
           initial={{
@@ -42,14 +45,7 @@ const About = (props: Props) => {
 
         <div className="px-5">
           <p className="text-sm md:text-base xl:text-xl text-justify">
-            Greetings! My name is Guilherme Branco De Campos, I am an IT
-            professional with experience in BI and web development. I have a
-            Bachelor's degree in Computer Science and a technical degree in
-            Informatics. This responsive portfolio was developed with Next.js,
-            Tailwind CSS, Framer Motion, using GitHub as a repository and
-            deployed via Vercel. I am driven by curiosity, proactivity, and a
-            constant quest for knowledge, always seeking to understand and
-            optimize processes.
+            {t("about-text")}
           </p>
         </div>
       </div>

@@ -1,0 +1,21 @@
+{
+    "greeting": "Greetings 👻",
+    "about": "About",
+    "about-text": "Greetings! My name is Guilherme Branco De Campos, I am an IT professional with experience in BI and web development. I have a Bachelor's degree in Computer Science and a technical degree in Informatics. This responsive portfolio was developed with Next.js, Tailwind CSS, Framer Motion, using GitHub as a repository and deployed via Vercel. I am driven by curiosity, proactivity, and a constant quest for knowledge, always seeking to understand and optimize processes.",
+    "title": "Front-End Developer",
+    "title-bi": "Business Intelligence Intern",
+    "experience": "Experience",
+    "expSum1": "Developer responsible for the layout of pages using VueJS, ReactJS, TailwindCSS, and Axios.",
+    "expSum2": "Development of a solution for SERPRO related to government procurement using VueJS and CSS.",
+    "expSum3": "Planning and development of a web application for conducting the FENADEPOL election using HTML, CSS, and JavaScript.",
+    "expSum4": "B.I consultancy in the Directorate of Development and Health and development of dashboards using Python and Power BI.",
+    "hoverTouch": "Hover/Touch over to focus",
+    "hoverTouchP": "Hover/Touch over to know the proficiency level",
+    "skills": "Skills",
+    "projects": "Projects",
+    "projSum1": "Responsive Web app based on Hulu that uses The Movie DB API to request movie data.",
+    "projSum2": "Responsive Chatbot powered by Ollama 3.3",
+    "projSum3": "Responsive web app that uses the Jikan API to request anime data and add them to your list.",
+    "projSum4": "Responsive web app that uses the Google API to search for results."
+
+}

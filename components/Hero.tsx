@@ -6,12 +6,15 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "./Header";
+import { useTranslations } from "next-intl";
 
 type Props = {};
 
 function Hero({}: Props) {
+  const t = useTranslations()
+
   const [text, count] = useTypewriter({
-    words: ["Greetings 👻", "Sic Parvis Magna"],
+    words: [t("greeting"), "Sic Parvis Magna"],
     loop: true,
     delaySpeed: 2000,
   });
@@ -30,7 +33,7 @@ function Hero({}: Props) {
         />
         <div className="z-20">
           <h2 className="text-sm uppercase text-gray-200 pb-2 tracking-[10px]">
-            Front-End Developer
+            {t("title")}
           </h2>
           <h1 className="text-3xl lg:text-5xl font-semibold px-10">
             <span className="mr-3">{text}</span>
@@ -38,16 +41,16 @@ function Hero({}: Props) {
           </h1>
           <div className="pt-5 flex flex-col items-center justify-center space-y-2 md:space-y-0 md:space-x-4 md:flex-row">
             <Link href="#about">
-              <button className="heroButton">About</button>
+              <button className="heroButton">{t("about")}</button>
             </Link>
             <Link href="#experience">
-              <button className="heroButton">Experience</button>
+              <button className="heroButton">{t("experience")}</button>
             </Link>
             <Link href="#skills">
-              <button className="heroButton">Techs</button>
+              <button className="heroButton">{t("skills")}</button>
             </Link>
             <Link href="#projects">
-              <button className="heroButton">Projects</button>
+              <button className="heroButton">{t("projects")}</button>
             </Link>
           </div>
         </div>

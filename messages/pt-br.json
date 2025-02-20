@@ -1,0 +1,21 @@
+{
+    "greeting": "Bem-vindo 👻",
+    "about": "Sobre",
+    "about-text": "Saudações! Meu nome é Guilherme Branco De Campos, sou um profissional de TI com experiência em BI e desenvolvimento web. Tenho um diploma de bacharel em Ciência da Computação e um diploma técnico em Informática. Este portfólio responsivo foi desenvolvido com Next.js, Tailwind CSS, Framer Motion, usando o GitHub como repositório e implantado via Vercel. Sou movido pela curiosidade, proatividade e uma constante busca por conhecimento, sempre buscando entender e otimizar processos.",
+    "title": "Desenvolvedor Front-End",
+    "title-bi": "Estagiário de BI",
+    "experience": "Experiência",
+    "expSum1": "Desenvolvedor responsável pelo layout de páginas usando VueJS, ReactJS, TailwindCSS e Axios.",
+    "expSum2": "Desenvolvimento de uma solução para SERPRO relacionada a compras governamentais usando VueJS e CSS.",
+    "expSum3": "Planejamento e desenvolvimento de um aplicativo web para a eleição da FENADEPOL usando HTML, CSS e JavaScript.",
+    "expSum4": "Consultoria de B.I na Diretoria de Desenvolvimento e Saúde e desenvolvimento de painéis de controle usando Python e Power BI.",
+    "hoverTouch": "Passe o mouse/Toque sobre para focar",
+    "hoverTouchP": "Passe o mouse/Toque sobre para conhecer o nível de proficiência",
+    "skills": "Habilidades",
+    "projects": "Projetos",
+    "projSum1": "Aplicativo web responsivo baseado no Hulu que usa a API The Movie DB para solicitar dados de filmes.",
+    "projSum2": "Chatbot responsivo poderido por Ollama 3.3",
+    "projSum3": "Aplicativo web responsivo que usa a API Jikan para solicitar dados de animes e adiciona-los à sua lista.",
+    "projSum4": "Aplicativo web responsivo que usa a API Google para buscar resultados."
+    
+}

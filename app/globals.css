@@ -10,3 +10,10 @@
     @apply uppercase tracking-[10px] text-center text-gray-300 text-3xl;
   }
 }
+
+@layer base {
+  :root {
+
+    --radius: 0.5rem
+  }
+}

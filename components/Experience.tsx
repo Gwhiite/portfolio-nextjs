@@ -2,9 +2,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ExperienceCard from "./ExperienceCard";
+import { useTranslations } from "next-intl";
 type Props = {};
 
 const Experience = (props: Props) => {
+  const t = useTranslations();
   return (
     <motion.div
       initial={{
@@ -16,39 +18,39 @@ const Experience = (props: Props) => {
         rotate: 0.02,
       }}
       className="h-screen py-24 flex duration-[1s] overflow-hidden flex-col text-left md:flew-row max-w-full px-5 justify-center space-y-8 mx-auto items-center">
-      <h1 className="title">Experience</h1>
+      <h1 className="title">{t("experience")}</h1>
       <h2 className="uppercase tracking-[3px] text-gray-500 text-sm">
-        Hover/Touch over to focus
+        {t("hoverTouch")}
       </h2>
       <div className="w-full flex space-x-5 overflow-x-scroll p-5 snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
         <ExperienceCard
-          title="Front-End Developer"
+          title={t("title")}
           company="Labz Digital"
-          summary="Developer responsible for the layout of pages using VueJS, ReactJS, TailwindCSS, and Axios."
+          summary={t("expSum1")}
           techs={["/vuejs.svg", "/reactjs.svg", "/tailwind.svg", "/axios.svg"]}
           started="04/2023"
           ended="05/2023"
         />
         <ExperienceCard
-          title="Front-End Developer"
+          title={t("title")}
           company="Hackathon SERPRO"
-          summary="Development of a solution for SERPRO related to government procurement using VueJS and CSS."
+          summary={t("expSum2")}
           techs={["/vuejs.svg", "/css.svg"]}
           started="07/2022"
           ended="07/2022"
         />
         <ExperienceCard
-          title="Front-End Developer"
+          title={t("title")}
           company="Freelancer"
-          summary="Planning and development of a web application for conducting the FENADEPOL election using HTML, CSS, and JavaScript."
+          summary={t("expSum3")}
           techs={["/html.svg", "/css.svg", "/js.svg"]}
           started="04/2022"
           ended="04/2022"
         />
         <ExperienceCard
-          title="Business Intelligence Intern"
-          company="Ministry of Education"
-          summary="B.I consultancy in the Directorate of Development and Health and development of dashboards using Python and Power BI."
+          title={t("title-bi")}
+          company="Ministério da Educação"
+          summary={t("expSum4")}
           techs={["/python.svg", "/google.svg", "/moffice.svg", "/bi.svg"]}
           started="08/2022"
           ended="09/2023"
