@@ -11,7 +11,7 @@ import { useTranslations } from "next-intl";
 type Props = {};
 
 function Hero({}: Props) {
-  const t = useTranslations()
+  const t = useTranslations();
 
   const [text, count] = useTypewriter({
     words: [t("greeting"), "Sic Parvis Magna"],
@@ -32,7 +32,7 @@ function Hero({}: Props) {
           height={128}
         />
         <div className="z-20">
-          <h2 className="text-sm uppercase text-gray-200 pb-2 tracking-[10px]">
+          <h2 className="text-xs sm:text-sm uppercase text-gray-200 pb-2 tracking-[10px]">
             {t("title")}
           </h2>
           <h1 className="text-3xl lg:text-5xl font-semibold px-10">

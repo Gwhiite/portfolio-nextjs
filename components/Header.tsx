@@ -10,9 +10,8 @@ import LanguageSwitcher from "./LanguageSwitcher";
 type Props = {};
 
 function Header({}: Props) {
-  
   return (
-    <header className="flex w-full top-0 p-5 items-center justify-center  max-w-7xl mx-auto z-50">
+    <header className="flex  top-0 p-5 items-center justify-center  max-w-7xl mx-auto z-50">
       <motion.div
         initial={{
           y: -200,
@@ -26,32 +25,35 @@ function Header({}: Props) {
           scale: 1,
           rotate: 0.02,
         }}
-        className="flex items-center duration-[1s]">
-        <SocialIcon
-          url="https://github.com/Gwhiite"
-          rel="noopener noreferrer"
-          target="_blank"
-          fgColor="white"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          url="https://www.linkedin.com/in/guibranco/"
-          rel="noopener noreferrer"
-          target="_blank"
-          fgColor="#0e76a8"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          url="https://wa.me/5561933005901"
-          rel="noopener noreferrer"
-          target="_blank"
-          network="whatsapp"
-          fgColor="green"
-          bgColor="transparent"
-        />
-        
-        <div className="ml-auto justify-self-end border border-[#ba110c]/40 p-2 rounded-lg"><LanguageSwitcher /></div>
-        
+        className="flex items-center w-full duration-[1s]"
+      >
+        <div>
+          <SocialIcon
+            url="https://github.com/Gwhiite"
+            rel="noopener noreferrer"
+            target="_blank"
+            fgColor="white"
+            bgColor="transparent"
+          />
+          <SocialIcon
+            url="https://www.linkedin.com/in/guibranco/"
+            rel="noopener noreferrer"
+            target="_blank"
+            fgColor="#0e76a8"
+            bgColor="transparent"
+          />
+          <SocialIcon
+            url="https://wa.me/5561933005901"
+            rel="noopener noreferrer"
+            target="_blank"
+            network="whatsapp"
+            fgColor="green"
+            bgColor="transparent"
+          />
+        </div>
+        <div className="ml-auto justify-self-end border border-[#ba110c]/40 p-2 rounded-lg">
+          <LanguageSwitcher />
+        </div>
       </motion.div>
     </header>
   );
