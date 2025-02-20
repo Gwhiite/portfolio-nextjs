@@ -11,7 +11,7 @@ type Props = {
 const Project = ({ video, title, source, summary }: Props) => {
   return (
     <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-5">
-      <video controls poster={`${video}#t=0.5`} width={800} height={400}>
+      <video className="rounded-lg" controls width={800} height={400}>
         <source src={video} type="video/webm" />
       </video>
 
