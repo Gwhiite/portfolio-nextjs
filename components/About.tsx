@@ -38,7 +38,7 @@ const About = (props: Props) => {
           transition={{
             duration: 1,
           }}
-          src={"/about.svg"}
+          src={"/moon.svg"}
           alt="Coding pic"
           className="w-40 h-40 flex-shrink-0 rounded-full md:rounded-lg md:w-64 md:h-64 xl:w-80 xl:h-80"
         />
