@@ -2,7 +2,7 @@
   "greeting": "Greetings 👻",
   "about": "About",
   "about-text": "Greetings! My name is Guilherme Branco De Campos, I am an IT professional with experience in BI and web development. I have a Bachelor's degree in Computer Science and a technical degree in Informatics. This responsive portfolio was developed with Next.js, Tailwind CSS, Framer Motion, using GitHub as a repository and deployed via Vercel. I am driven by curiosity, proactivity, and a constant quest for knowledge, always seeking to understand and optimize processes.",
-  "title": "Front-End Developer",
+  "title": "Developer",
   "title-bi": "Business Intelligence Intern",
   "experience": "Experience",
   "expSum1": "Developer responsible for the layout of pages using VueJS, ReactJS, TailwindCSS, and Axios.",

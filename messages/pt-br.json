@@ -2,7 +2,7 @@
   "greeting": "Bem-vindo 👻",
   "about": "Sobre",
   "about-text": "Olá! Meu nome é Guilherme Branco De Campos, sou um profissional de TI com experiência em BI e desenvolvimento web. Tenho um diploma de bacharel em Ciência da Computação e um diploma técnico em Informática. Este portfólio responsivo foi desenvolvido com Next.js, Tailwind CSS, Framer Motion, usando o GitHub como repositório e implantado via Vercel. Sou movido pela curiosidade, proatividade e uma constante busca por conhecimento, sempre buscando entender e otimizar processos.",
-  "title": "Desenvolvedor Front-End",
+  "title": "Desenvolvedor",
   "title-bi": "Estagiário de BI",
   "experience": "Experiência",
   "expSum1": "Desenvolvedor responsável pelo layout de páginas usando VueJS, ReactJS, TailwindCSS e Axios.",
