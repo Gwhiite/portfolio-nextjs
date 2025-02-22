@@ -19,7 +19,7 @@ const Projects = (props: Props) => {
         opacity: 1,
         rotate: 0.02,
       }}
-      className="h-screen duration-[1.5s] my-24 relative flex flex-col overflow-hidden text-left justify-center space-y-8 max-w-full mx-auto items-center z-0"
+      className="h-screen duration-[1.5s] my-6 lg:my-20 relative flex flex-col overflow-hidden text-left justify-center space-y-8 max-w-full mx-auto items-center z-0"
     >
       <h1 className="title">{t("projects")}</h1>
       <div className="relative w-full flex overflow-x-scroll snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
