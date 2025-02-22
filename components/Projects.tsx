@@ -36,7 +36,7 @@ const Projects = (props: Props) => {
             "/nextjs.svg",
             "/tailwind.svg",
             "/shadcn.svg",
-            "/oxylabs.jpg",
+            "/oxylabs.svg",
           ]}
           summary={t("projSum5")}
         />
