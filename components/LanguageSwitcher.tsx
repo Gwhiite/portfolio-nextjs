@@ -12,22 +12,24 @@ export default function LanguageSwitcher() {
 
   return (
     <Popover>
-      <PopoverTrigger className="flex items-center gap-x-1 border border-[#ba110c]/50 p-2 rounded-lg">
+      <PopoverTrigger className="flex items-center gap-x-1 border border-[#ba110c]/50 px-2 py-1 rounded-lg">
         {pathname === "/pt-br" ? (
           <Image
             priority
             src={"/brazil.svg"}
             alt="brazil flag"
-            width={30}
-            height={30}
+            width={0}
+            height={0}
+            className="w-8 h-8 rounded"
           />
         ) : (
           <Image
             priority
             src={"/usa.svg"}
             alt="usa flag"
-            width={30}
-            height={30}
+            width={0}
+            height={0}
+            className="w-8 h-8 rounded"
           />
         )}{" "}
         <Image
@@ -46,8 +48,9 @@ export default function LanguageSwitcher() {
                   priority
                   src={"/brazil.svg"}
                   alt="brazil flag"
-                  width={30}
-                  height={30}
+                  width={0}
+                  height={0}
+                  className="w-8 h-8 rounded"
                 />
                 <span className="tracking-wider">PT-BR</span>
               </div>
@@ -57,10 +60,11 @@ export default function LanguageSwitcher() {
                   priority
                   src={"/usa.svg"}
                   alt="usa flag"
-                  width={30}
-                  height={30}
+                  width={0}
+                  height={0}
+                  className="w-8 h-8 rounded"
                 />
-                <span className="tracking-wider">EN</span>
+                <span className="tracking-wider">EN-US</span>
               </div>
             )}
           </Link>

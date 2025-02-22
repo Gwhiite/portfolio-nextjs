@@ -24,8 +24,9 @@ const Project = ({ video, title, source, summary }: Props) => {
               key={index}
               src={item}
               alt="skill used"
-              width={40}
-              height={40}
+              width={0}
+              height={0}
+              className="w-10 h-auto"
             />
           ))}
         </div>

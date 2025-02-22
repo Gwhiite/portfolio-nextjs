@@ -18,7 +18,7 @@ const Skills = (props: Props) => {
     { source: "/windsurf.svg", prof: "75" },
     { source: "/github.svg", prof: "80" },
     { source: "/vscode.svg", prof: "100" },
-    { source: "/cursor.png", prof: "75" },
+    { source: "/cursor.svg", prof: "75" },
     { source: "/html.svg", prof: "100" },
     { source: "/css.svg", prof: "90" },
     { source: "/python.svg", prof: "50" },

@@ -11,7 +11,9 @@ type Props = {
 const Skill = ({ source, prof }: Props) => {
   return (
     <div className="group relative flex cursor-pointer">
-      <img
+      <Image
+        height={0}
+        width={0}
         src={source}
         alt="skill"
         className="rounded-lg p-2 border border-[#ba110c]/50 w-20 h-20 md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
