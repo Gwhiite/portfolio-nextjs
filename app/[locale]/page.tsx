@@ -26,7 +26,7 @@ export default function Home() {
         <Projects />
       </section>
       <Link href="#hero">
-        <footer className="sticky bottom-5 w-full cursor-pointer">
+        <footer className="sticky bottom-8 w-full cursor-pointer">
           <div className="flex items-center justify-center">
             <Image
               src={"/rocket.svg"}
