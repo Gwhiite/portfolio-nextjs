@@ -17,6 +17,7 @@
   "projSum2": "Responsive Chatbot powered by Ollama 3.3",
   "projSum3": "Responsive web app that uses the Jikan API to request anime data and add them to your list.",
   "projSum4": "Responsive web app that uses the Google API to search for results.",
+  "projSum5": "Responsive Web app based on Booking.com that uses Oxylabs API to extract data from Booking.com.",
   "showM": "Show More",
   "showL": "Show Less"
 }

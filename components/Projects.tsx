@@ -30,6 +30,17 @@ const Projects = (props: Props) => {
           summary={t("projSum1")}
         />
         <Project
+          video={"/videos/Booking-Clone.webm"}
+          title="Booking Clone"
+          source={[
+            "/nextjs.svg",
+            "/tailwind.svg",
+            "/shadcn.svg",
+            "/oxylabs.jpg",
+          ]}
+          summary={t("projSum5")}
+        />
+        <Project
           video={"/videos/Chatbot.webm"}
           title="Chatbot AI"
           source={["/nextjs.svg", "/tailwind.svg", "/shadcn.svg"]}
