@@ -53,7 +53,7 @@ const Skills = (props: Props) => {
         opacity: 1,
         rotate: 0.02,
       }}
-      className="h-screen duration-[1.5s] py-24 flex flex-col text-center md:text-left max-w-[2000px] px-5 justify-center space-y-8 mx-auto items-center"
+      className="h-screen duration-[1.5s] my-24 flex flex-col text-center md:text-left max-w-[2000px] px-5 justify-center space-y-8 mx-auto items-center"
     >
       <h1 className="title">{t("skills")}</h1>
       <h2 className="uppercase tracking-[3px] text-gray-500 text-sm">
