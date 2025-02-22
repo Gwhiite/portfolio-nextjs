@@ -50,6 +50,13 @@ function Header({}: Props) {
             fgColor="green"
             bgColor="transparent"
           />
+          <SocialIcon
+            url="mailto:guibrancodecampos@gmail.com"
+            rel="noopener noreferrer"
+            target="_blank"
+            network="email"
+            bgColor="transparent"
+          />
         </div>
         <div className="ml-auto justify-self-end ">
           <LanguageSwitcher />
