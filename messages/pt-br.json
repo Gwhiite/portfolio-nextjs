@@ -16,5 +16,7 @@
   "projSum1": "Aplicativo web responsivo baseado no Hulu que usa a API The Movie DB para solicitar dados de filmes.",
   "projSum2": "Chatbot responsivo alimentado por Ollama 3.3",
   "projSum3": "Aplicativo web responsivo que usa a API Jikan para solicitar dados de animes e adiciona-los à sua lista.",
-  "projSum4": "Aplicativo web responsivo que usa a API Google para buscar resultados."
+  "projSum4": "Aplicativo web responsivo que usa a API Google para buscar resultados.",
+  "showM": "Mostrar Mais",
+  "showL": "Mostar Menos"
 }
