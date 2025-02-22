@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 type Props = {};
@@ -19,7 +18,8 @@ const About = (props: Props) => {
         opacity: 1,
         rotate: 0.02,
       }}
-      className="h-screen py-24 flex flex-col duration-[1.25s] text-center max-w-7xl px-5 justify-center space-y-8 mx-auto items-center">
+      className="h-screen py-24 flex flex-col duration-[1.25s] text-center max-w-7xl px-5 justify-center space-y-8 mx-auto items-center"
+    >
       <h1 className="title">{t("about")}</h1>
       <div className="lg:text-left flex flex-col items-center lg:flex-row">
         <motion.img

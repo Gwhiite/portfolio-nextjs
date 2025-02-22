@@ -34,7 +34,7 @@ const Skills = (props: Props) => {
 
   const handleShowMore = () => {
     setVisibleSkillsCount((prevCount) => {
-      const newCount = prevCount + 8;
+      const newCount = prevCount + 4;
       return newCount > skills.length ? skills.length : newCount;
     });
   };

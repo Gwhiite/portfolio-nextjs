@@ -23,7 +23,7 @@ const Experience = (props: Props) => {
       <h2 className="uppercase tracking-[3px] text-gray-500 text-sm">
         {t("hoverTouch")}
       </h2>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-5 snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
+      <div className="md:max-w-7xl w-full md:gap-5 md:grid md:grid-cols-2 md:space-x-0 flex space-x-5 overflow-x-scroll p-5 snap-mandatory md:scrollbar-none scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#ba110c]/80">
         <ExperienceCard
           title={t("title")}
           company="Labz Digital"
