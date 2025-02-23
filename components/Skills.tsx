@@ -67,7 +67,7 @@ const Skills = (props: Props) => {
       {visibleSkillsCount < skills.length && (
         <button
           onClick={handleShowMore}
-          className="bg-[#ba110c] hover:bg-[#ba110c]/70 text-white font-bold py-2 px-4 rounded-lg z-100"
+          className="bg-[#ba110c] md:hover:bg-[#ba110c]/70 text-white font-bold py-2 px-4 rounded-lg z-100"
         >
           {t("showM")}
         </button>
@@ -75,7 +75,7 @@ const Skills = (props: Props) => {
       {visibleSkillsCount === skills.length && (
         <button
           onClick={handleShowLess}
-          className="bg-[#ba110c] hover:bg-[#ba110c]/70 text-white font-bold py-2 px-4 rounded-lg z-100"
+          className="bg-[#ba110c] md:hover:bg-[#ba110c]/70 text-white font-bold py-2 px-4 rounded-lg z-100"
         >
           {t("showL")}
         </button>
